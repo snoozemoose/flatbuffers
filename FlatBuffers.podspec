@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/google/flatbuffers'
   s.license          = { :type => 'Apache2.0', :file => 'LICENSE.txt' }
   s.author           = { 'mustii' => 'mustii@mmk.one' }
-  s.source           = { :git => 'https://github.com/google/flatbuffers.git', :tag => s.version.to_s, :submodules => true }
+  s.source           = { :git => 'https://github.com/snoozemoose/flatbuffers.git', :tag => s.version.to_s, :submodules => true }
 
   s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '13.0'
