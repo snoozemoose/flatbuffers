@@ -9,11 +9,12 @@ Pod::Spec.new do |s|
   forwards/backwards compatibility."
 
   s.homepage         = 'https://github.com/google/flatbuffers'
-  s.license          = { :type => 'Apache2.0', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache2.0', :file => 'LICENSE.txt' }
   s.author           = { 'mustii' => 'mustii@mmk.one' }
   s.source           = { :git => 'https://github.com/google/flatbuffers.git', :tag => s.version.to_s, :submodules => true }
 
   s.ios.deployment_target = '11.0'
+  s.tvos.deployment_target = '13.0'
   s.osx.deployment_target = '10.14'
 
   s.swift_version = '5.0'
